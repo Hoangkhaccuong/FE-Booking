@@ -1,0 +1,69 @@
+.login-background{
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,    
+     rgba(253,187,45,1) 100%);;
+     width: 100vw;
+     height: 100vh;
+     .login-center {
+        border: 1px solid #f9fafb;
+        height: 40rem;
+        width: 30rem;
+        background: white;
+        border-radius: 11px;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .Login {
+        margin-top: 2rem;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        font-weight: 500;
+    }
+    .change-input{
+        padding: 1.5rem 0
+    }
+   .input-type{
+    width: 23rem;
+    height: 3rem;
+    border-radius: 4px;
+    padding: 0 1rem
+   }
+   .btn-login{
+    width: 10rem;
+    height: 2.5rem;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,    
+     rgba(253,187,45,1) 100%);;
+     margin-top: 1rem;
+   }
+   .forgot-password {
+    font-size: 1.1rem;
+    margin-left: -18rem;
+    text-decoration: none;
+    color: black;
+    margin-top: 24px;
+    display: block;
+}
+.sigin-text{
+    margin: 1.3rem;
+}
+    i.fab.fa-facebook {
+        font-size: 4rem;
+        margin-right: 2rem;
+        color: blue;
+    }
+    i.fab.fa-google-plus-g {
+        font-size: 4rem;
+        color: red;
+    }
+    i.fas.fa-eye,
+    i.fas.fa-eye-slash {
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 26rem;
+        top: 18rem;
+        cursor: pointer;
+    }
+}
